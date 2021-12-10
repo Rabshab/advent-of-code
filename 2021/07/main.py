@@ -2,7 +2,7 @@ import statistics
 import math
 
 with open('input') as i:
-    crabs = [int(x) for x in i.read().split(',')]
+  crabs = [int(x) for x in i.read().split(',')]
 
 def task1():
   median = round(statistics.median(crabs))
