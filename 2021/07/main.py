@@ -16,4 +16,5 @@ def task2():
   total_fuel = sum([sum(step) for step in fuel_steps])
   print(total_fuel)
 
+task1()
 task2()
